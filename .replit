@@ -1,0 +1,7 @@
+run = "bash main.sh > /dev/null 2>&1"
+
+[nix]
+channel = "stable-22_11"
+
+[env]
+npm_config_prefix = "$REPL_HOME/.config/npm/node_global"
